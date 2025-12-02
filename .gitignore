@@ -53,3 +53,27 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+
+# FIFOs & IPC
+fifos/
+/tmp/sensor_data_fifo
+/tmp/control_fifo
+/dev/shm/sensor_system_shm
+/dev/mqueue/sensor_mq
+
+
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
